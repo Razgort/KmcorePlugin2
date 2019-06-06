@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../out-tsc/plugins",
+    "types": []
+  },
+<<<<<<< Updated upstream
+  "files": ["./src/main.ts"]
+=======
+  "files": ["./src/main.ts"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+>>>>>>> Stashed changes
+}

@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "types": []
+<<<<<<< Updated upstream
+  },
+  "exclude": ["test.ts", "**/*.spec.ts"]
+=======
+
+  },
+  "exclude": ["test.ts", "**/*.spec.ts"],   
+
+
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+>>>>>>> Stashed changes
+}

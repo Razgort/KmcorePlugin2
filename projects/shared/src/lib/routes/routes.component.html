@@ -1,0 +1,8 @@
+<ul class="routes">
+  <li *ngFor="let route of routes" (click)="selectRoute(route)" class="route" [class.route--active]="!route.hidden">
+      {{route.name}}
+  </li>
+</ul>
+<div class="route-body">
+    <ng-content></ng-content>
+</div>
